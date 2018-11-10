@@ -65,7 +65,6 @@
 		5BDD3BED5B5E75CCBBD545A40F097766 /* XCTest+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = B320B192BAA2B7B006880B016A39AB10 /* XCTest+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C600EC03D65A0C203700F6608C96147 /* EXPMatchers+raise.h in Headers */ = {isa = PBXBuildFile; fileRef = 33C929F06DEC760FA0B134E8F8D1C9FA /* EXPMatchers+raise.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5DF1964D0239E63BE1B0E3571BC18DA6 /* EXPMatchers+match.h in Headers */ = {isa = PBXBuildFile; fileRef = 36BB29C27B61C055294A8316529A8EF8 /* EXPMatchers+match.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5F2287312196637300C3C97C /* WMM.COF in Resources */ = {isa = PBXBuildFile; fileRef = 1CDC06DC6C430CBDC56AFDA0CBCFF697 /* WMM.COF */; };
 		5FFE1B7BDFD938E845462FDB2DAA9E8F /* EXPMatchers+equal.h in Headers */ = {isa = PBXBuildFile; fileRef = FBF30858E3C4F8F822AB008755EC09E9 /* EXPMatchers+equal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6054BD43480940CC50A56889A10DDF63 /* Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F9EE98E21A0C637A4E0FE3B6F402DAD /* Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66A87502CDBC739CC0BA6FEF1AA00AF1 /* EXPDoubleTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = E8899DDCDB159906296A77EA9F670B8C /* EXPDoubleTuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -971,7 +970,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F2287312196637300C3C97C /* WMM.COF in Resources */,
 				C821F4707885E621BB7030CF2D9DDC84 /* ObjectiveWMM.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
