@@ -65,7 +65,7 @@ const char * getPathForResource(const char *fileName, const char *fileExtension)
         int numTerms, nMax = 0;
         
         NSBundle *mainBundle = [NSBundle bundleForClass:[CCMagneticModel self]];
-        NSURL *bundleUrl = [mainBundle URLForResource:@"resourcebundle" withExtension:@"bundle"];
+        NSURL *bundleUrl = [mainBundle URLForResource:@"ObjectiveWMM" withExtension:@"bundle"];
         NSBundle *bundle = [NSBundle bundleWithURL:bundleUrl];
         NSString *path = [bundle pathForResource:@"WMM" ofType:@"COF"];
         
