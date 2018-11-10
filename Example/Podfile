@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'ObjectiveWMM_Example' do
+  pod 'ObjectiveWMM', :path => '../'
+
+  target 'ObjectiveWMM_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+  end
+end

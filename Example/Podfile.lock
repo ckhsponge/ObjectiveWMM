@@ -1,0 +1,27 @@
+PODS:
+  - Expecta (1.0.6)
+  - ObjectiveWMM (0.1.0)
+  - Specta (1.0.7)
+
+DEPENDENCIES:
+  - Expecta
+  - ObjectiveWMM (from `../`)
+  - Specta
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Expecta
+    - Specta
+
+EXTERNAL SOURCES:
+  ObjectiveWMM:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  ObjectiveWMM: ce27a444cf439f20a5babf66b366d175b4d2b63b
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+
+PODFILE CHECKSUM: 009466e3b9213f7342949f0d6ed591cf9691d035
+
+COCOAPODS: 1.5.3
