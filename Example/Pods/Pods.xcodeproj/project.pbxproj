@@ -65,6 +65,7 @@
 		5BDD3BED5B5E75CCBBD545A40F097766 /* XCTest+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = B320B192BAA2B7B006880B016A39AB10 /* XCTest+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C600EC03D65A0C203700F6608C96147 /* EXPMatchers+raise.h in Headers */ = {isa = PBXBuildFile; fileRef = 33C929F06DEC760FA0B134E8F8D1C9FA /* EXPMatchers+raise.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5DF1964D0239E63BE1B0E3571BC18DA6 /* EXPMatchers+match.h in Headers */ = {isa = PBXBuildFile; fileRef = 36BB29C27B61C055294A8316529A8EF8 /* EXPMatchers+match.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F3E6A1C219D55AA00A3B900 /* ObjectiveWMM.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3E6A1B219D55AA00A3B900 /* ObjectiveWMM.m */; };
 		5FFE1B7BDFD938E845462FDB2DAA9E8F /* EXPMatchers+equal.h in Headers */ = {isa = PBXBuildFile; fileRef = FBF30858E3C4F8F822AB008755EC09E9 /* EXPMatchers+equal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6054BD43480940CC50A56889A10DDF63 /* Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F9EE98E21A0C637A4E0FE3B6F402DAD /* Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66A87502CDBC739CC0BA6FEF1AA00AF1 /* EXPDoubleTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = E8899DDCDB159906296A77EA9F670B8C /* EXPDoubleTuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -233,6 +234,7 @@
 		5E368ACB702765860A1E66C295D2B229 /* Pods-ObjectiveWMM_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ObjectiveWMM_Example-umbrella.h"; sourceTree = "<group>"; };
 		5E711193023B1623B4622AA72E1B5DB2 /* EXPMatchers+beFalsy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beFalsy.h"; path = "Expecta/Matchers/EXPMatchers+beFalsy.h"; sourceTree = "<group>"; };
 		5F22375077BCEABF9DE05E4614EAB0D1 /* Expecta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-prefix.pch"; sourceTree = "<group>"; };
+		5F3E6A1B219D55AA00A3B900 /* ObjectiveWMM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ObjectiveWMM.m; path = ObjectiveWMM/Classes/ObjectiveWMM.m; sourceTree = "<group>"; };
 		621D45D57ACA8E38D852A1E07D2AD679 /* SpectaDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaDSL.m; path = Specta/Specta/SpectaDSL.m; sourceTree = "<group>"; };
 		65DA28E34D6B2634B0D3632970B9AFD0 /* EXPMatchers+raiseWithReason.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+raiseWithReason.h"; path = "Expecta/Matchers/EXPMatchers+raiseWithReason.h"; sourceTree = "<group>"; };
 		67324AA26715C0742B62E59D0AAB374C /* EXPMatchers+beTruthy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beTruthy.h"; path = "Expecta/Matchers/EXPMatchers+beTruthy.h"; sourceTree = "<group>"; };
@@ -640,6 +642,7 @@
 				3213F68278801C09B54E3734DCE2A028 /* NSDate+DecimalYear.h */,
 				3BF87189BAA82684C9148758ADBF4958 /* NSDate+DecimalYear.m */,
 				BA9833A584158C9E10E087A6D017C144 /* ObjectiveWMM.h */,
+				5F3E6A1B219D55AA00A3B900 /* ObjectiveWMM.m */,
 				7B07347EE73D4FD0BDE1517E344C85A8 /* Pod */,
 				E14A728A89A8D980C3D24D5065A39FC9 /* Resources */,
 				E4FD26A145CF11CF7B518C21D4D39283 /* Support Files */,
@@ -1005,6 +1008,7 @@
 			files = (
 				BAF3FF5A24600364126C87FDFF9A9D25 /* CCMagneticDeclination.m in Sources */,
 				E628407BB668702EA3CCAA922B98D923 /* CCMagneticModel.m in Sources */,
+				5F3E6A1C219D55AA00A3B900 /* ObjectiveWMM.m in Sources */,
 				055EF1247250FB27CDDDF1399BDA7070 /* GeomagnetismLibrary.c in Sources */,
 				E8270E3D58345F90F85A7802079E6ABE /* NSDate+DecimalYear.m in Sources */,
 				E8A041FC52A98AA641241F9999360AEC /* ObjectiveWMM-dummy.m in Sources */,

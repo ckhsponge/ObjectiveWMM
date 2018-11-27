@@ -13,9 +13,13 @@
 SpecBegin(InitialSpecs)
 
 describe(@"has declination", ^{
-    it(@"in San Francisco", ^{
+    it(@"in San Francisco location", ^{
         CLLocation *location = [[CLLocation alloc] initWithLatitude:37.7749 longitude:-122.4194];
-        expect([CCMagneticModel declinationForLocation:location]).to.beCloseToWithin(13.4, 0.3);
+        expect([ObjectiveWMM declinationForLocation:location]).to.beCloseToWithin(13.4, 0.3);
+    });
+    it(@"in San Francisco again coordinate", ^{
+        CLLocationCoordinate2D coordinate = CLLocationCoordinate2DMake(37.7749, -122.4194);
+        expect([ObjectiveWMM declinationForCoordinate:coordinate]).to.beCloseToWithin(13.4, 0.3);
     });
 });
 
