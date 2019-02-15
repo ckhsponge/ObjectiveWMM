@@ -23,7 +23,6 @@
 		22FD7BFFCB02A9102FEFECC9D92E4D40 /* EXPMatchers+respondTo.m in Sources */ = {isa = PBXBuildFile; fileRef = B174ECCB055189C835E1613FD300BB85 /* EXPMatchers+respondTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		2492441D3CDD39F579CF1638CAA74A09 /* EXPMatchers+beInstanceOf.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5966F05CD1198629BF447653497239 /* EXPMatchers+beInstanceOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		25471592FE69BF83B62C23FFC077DE71 /* EXPMatchers+beNil.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A19FC30FAE97EDA655018A6AD2D54F /* EXPMatchers+beNil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2693D6A61C9A5F627F8640ADD8DDB36F /* PUBLIC_DOMAIN in Sources */ = {isa = PBXBuildFile; fileRef = 819661C900D51706801C413513FC27F7 /* PUBLIC_DOMAIN */; };
 		27CF3DE247D239281BF3BBA15C695568 /* SPTSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = A86483E009A2C30E3472D0609B2DBFFB /* SPTSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28FEFD257570084E1F0C7F43641BA3E8 /* SPTCallSite.h in Headers */ = {isa = PBXBuildFile; fileRef = 04BBCCE13322F42620459D20E8DE3673 /* SPTCallSite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29F7EA11B1ABD03B924141E979134962 /* EXPExpect.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F32E405A85135EDBCBF4765A6BB530B /* EXPExpect.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -66,6 +65,7 @@
 		5C600EC03D65A0C203700F6608C96147 /* EXPMatchers+raise.h in Headers */ = {isa = PBXBuildFile; fileRef = 33C929F06DEC760FA0B134E8F8D1C9FA /* EXPMatchers+raise.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5DF1964D0239E63BE1B0E3571BC18DA6 /* EXPMatchers+match.h in Headers */ = {isa = PBXBuildFile; fileRef = 36BB29C27B61C055294A8316529A8EF8 /* EXPMatchers+match.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F3E6A1C219D55AA00A3B900 /* ObjectiveWMM.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3E6A1B219D55AA00A3B900 /* ObjectiveWMM.m */; };
+		5FE72DD32217673B0026097D /* ObjectiveWMM.podspecBU in Resources */ = {isa = PBXBuildFile; fileRef = 5FE72DD22217673B0026097D /* ObjectiveWMM.podspecBU */; };
 		5FFE1B7BDFD938E845462FDB2DAA9E8F /* EXPMatchers+equal.h in Headers */ = {isa = PBXBuildFile; fileRef = FBF30858E3C4F8F822AB008755EC09E9 /* EXPMatchers+equal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6054BD43480940CC50A56889A10DDF63 /* Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F9EE98E21A0C637A4E0FE3B6F402DAD /* Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66A87502CDBC739CC0BA6FEF1AA00AF1 /* EXPDoubleTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = E8899DDCDB159906296A77EA9F670B8C /* EXPDoubleTuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -111,7 +111,6 @@
 		BFBF723AA6CB8934029A62CF49D8F0EA /* EXPMatchers+beFalsy.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E711193023B1623B4622AA72E1B5DB2 /* EXPMatchers+beFalsy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C28BAE1FCDA3AFA70B7FA8F83FC26978 /* EXPMatchers+beTruthy.h in Headers */ = {isa = PBXBuildFile; fileRef = 67324AA26715C0742B62E59D0AAB374C /* EXPMatchers+beTruthy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C3CB510B0F10B08D5876CFA12487B0A5 /* EXPMatchers+contain.m in Sources */ = {isa = PBXBuildFile; fileRef = 31695F545CD3669506497ADBB22873F6 /* EXPMatchers+contain.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C821F4707885E621BB7030CF2D9DDC84 /* ObjectiveWMM.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 91D44191C3357B12C17ECA58C032581A /* ObjectiveWMM.bundle */; };
 		CD2A2AD4DEACAF108AE5C57FC389CE6D /* SPTTestSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 113855CF66A69F6876546E978AC2362E /* SPTTestSuite.m */; };
 		D330E39C1FBAACEFA743485855A4DFE7 /* EXPMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A21F86A69C9F106AA92ADFA3CD7C46C /* EXPMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4938C8D5BBE9D74807FFF6DC0B1C161 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80C82283F763D9ABC7DD3BB91787CA8D /* XCTest.framework */; };
@@ -130,7 +129,6 @@
 		F2F7BD364336B30A40CAF2DAD7104F80 /* ObjectiveWMM.h in Headers */ = {isa = PBXBuildFile; fileRef = BA9833A584158C9E10E087A6D017C144 /* ObjectiveWMM.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F6BA14E3E5C97B09C234CD09F3169A4F /* EXPMatchers+raiseWithReason.h in Headers */ = {isa = PBXBuildFile; fileRef = 65DA28E34D6B2634B0D3632970B9AFD0 /* EXPMatchers+raiseWithReason.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F6C52D9786815997D907476A546702F5 /* EXPMatchers+beSubclassOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACF80B5A24CE07B6C736EEF474E7E9C /* EXPMatchers+beSubclassOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F858992AB63113E4023864B46AFE4210 /* WMM.COF in Resources */ = {isa = PBXBuildFile; fileRef = 1CDC06DC6C430CBDC56AFDA0CBCFF697 /* WMM.COF */; };
 		F8F60CCD97E9ADFD5BF59CD943650186 /* ExpectaSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = B424E5B08CAAABE851C235789EE3EC6B /* ExpectaSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F916605AAB35CEFDADADE9CD04F58D7F /* CCMagneticModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CDC068185101D31E95C2B4F16C573C59 /* CCMagneticModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD1F79CAD82CE83305CCFC20657F75F7 /* EXPMatchers+beLessThan.m in Sources */ = {isa = PBXBuildFile; fileRef = 983F42157C09B24C95033E6A987BBF22 /* EXPMatchers+beLessThan.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -152,13 +150,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = D7D308C30AFDB6EE4AACC96D0C456C9C;
 			remoteInfo = Expecta;
-		};
-		9E5D6BF90F0152127F329E5504277150 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D567D4A7B555734825DC713A9AAB6010;
-			remoteInfo = "ObjectiveWMM-ObjectiveWMM";
 		};
 		B359D6BAA308CB64E4E1F722776581FB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -235,6 +226,7 @@
 		5E711193023B1623B4622AA72E1B5DB2 /* EXPMatchers+beFalsy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beFalsy.h"; path = "Expecta/Matchers/EXPMatchers+beFalsy.h"; sourceTree = "<group>"; };
 		5F22375077BCEABF9DE05E4614EAB0D1 /* Expecta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-prefix.pch"; sourceTree = "<group>"; };
 		5F3E6A1B219D55AA00A3B900 /* ObjectiveWMM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ObjectiveWMM.m; path = ObjectiveWMM/Classes/ObjectiveWMM.m; sourceTree = "<group>"; };
+		5FE72DD22217673B0026097D /* ObjectiveWMM.podspecBU */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ObjectiveWMM.podspecBU; sourceTree = "<group>"; };
 		621D45D57ACA8E38D852A1E07D2AD679 /* SpectaDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaDSL.m; path = Specta/Specta/SpectaDSL.m; sourceTree = "<group>"; };
 		65DA28E34D6B2634B0D3632970B9AFD0 /* EXPMatchers+raiseWithReason.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+raiseWithReason.h"; path = "Expecta/Matchers/EXPMatchers+raiseWithReason.h"; sourceTree = "<group>"; };
 		67324AA26715C0742B62E59D0AAB374C /* EXPMatchers+beTruthy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beTruthy.h"; path = "Expecta/Matchers/EXPMatchers+beTruthy.h"; sourceTree = "<group>"; };
@@ -272,7 +264,6 @@
 		9082A83E9BDB68FE65BECB806008D9A6 /* Pods-ObjectiveWMM_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ObjectiveWMM_Example.modulemap"; sourceTree = "<group>"; };
 		90B698E2FF0DB6264407BB1E1916DE73 /* ObjectiveWMM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjectiveWMM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D17A7188630D4CFFDF216D1B20AD98 /* EXPMatchers+beGreaterThan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThan.m"; path = "Expecta/Matchers/EXPMatchers+beGreaterThan.m"; sourceTree = "<group>"; };
-		91D44191C3357B12C17ECA58C032581A /* ObjectiveWMM.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectiveWMM.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		924BF15B0F1D99CAD6E46F0030F50C50 /* ExpectaSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExpectaSupport.m; path = Expecta/ExpectaSupport.m; sourceTree = "<group>"; };
 		935BC71779A1E9D3E866E5EC3F050237 /* ObjectiveWMM.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ObjectiveWMM.modulemap; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -364,13 +355,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BAB6104ACB96EE830EF5BB835169905 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D59842162D0F2C75FA8B29773FF3711C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,7 +465,6 @@
 			isa = PBXGroup;
 			children = (
 				BBF436402E0D09760555CD134262BD8B /* Expecta.framework */,
-				91D44191C3357B12C17ECA58C032581A /* ObjectiveWMM.bundle */,
 				90B698E2FF0DB6264407BB1E1916DE73 /* ObjectiveWMM.framework */,
 				091C68ABEA0627770562299AC58C6012 /* Pods_ObjectiveWMM_Example.framework */,
 				7D675361C60BC9590F336942992CF529 /* Pods_ObjectiveWMM_Tests.framework */,
@@ -582,6 +565,7 @@
 		7B07347EE73D4FD0BDE1517E344C85A8 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
+				5FE72DD22217673B0026097D /* ObjectiveWMM.podspecBU */,
 				69C5E940924CC61C885165AB645E81D5 /* LICENSE */,
 				F2BCC6520CACFC909C1F408641E65BFA /* ObjectiveWMM.podspec */,
 				7C8F3B713C7C20AAD530E08E929951D4 /* readme.md */,
@@ -823,7 +807,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				69CDEC44EE114FCD64C9866B4EE4D782 /* PBXTargetDependency */,
 			);
 			name = ObjectiveWMM;
 			productName = ObjectiveWMM;
@@ -888,23 +871,6 @@
 			productReference = C599BDC54AB8F4A3FA9A57295C8346BE /* Specta.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D567D4A7B555734825DC713A9AAB6010 /* ObjectiveWMM-ObjectiveWMM */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9803D40EAF56BC5574BEEEA8A8E64617 /* Build configuration list for PBXNativeTarget "ObjectiveWMM-ObjectiveWMM" */;
-			buildPhases = (
-				E39D4EDCDA18DA5484DA4F767CD2AB60 /* Sources */,
-				D59842162D0F2C75FA8B29773FF3711C /* Frameworks */,
-				952848ACD3D0FCA87AE648DF094AF296 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "ObjectiveWMM-ObjectiveWMM";
-			productName = "ObjectiveWMM-ObjectiveWMM";
-			productReference = 91D44191C3357B12C17ECA58C032581A /* ObjectiveWMM.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
 		D7D308C30AFDB6EE4AACC96D0C456C9C /* Expecta */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 746CEAC1F619988F8DB1D62AB4AB6C02 /* Build configuration list for PBXNativeTarget "Expecta" */;
@@ -946,7 +912,6 @@
 			targets = (
 				D7D308C30AFDB6EE4AACC96D0C456C9C /* Expecta */,
 				34EFF3661DF65948091849BEF25ECE54 /* ObjectiveWMM */,
-				D567D4A7B555734825DC713A9AAB6010 /* ObjectiveWMM-ObjectiveWMM */,
 				B2653ECBFC04EDB9B7144FF3FB51089A /* Pods-ObjectiveWMM_Example */,
 				BD649CD6CB15F9ABBCDD24C5248555F2 /* Pods-ObjectiveWMM_Tests */,
 				D461B38DBAD1C2C02A6498B8791619E4 /* Specta */,
@@ -973,7 +938,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C821F4707885E621BB7030CF2D9DDC84 /* ObjectiveWMM.bundle in Resources */,
+				5FE72DD32217673B0026097D /* ObjectiveWMM.podspecBU in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -981,14 +946,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		952848ACD3D0FCA87AE648DF094AF296 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F858992AB63113E4023864B46AFE4210 /* WMM.COF in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1012,7 +969,6 @@
 				055EF1247250FB27CDDDF1399BDA7070 /* GeomagnetismLibrary.c in Sources */,
 				E8270E3D58345F90F85A7802079E6ABE /* NSDate+DecimalYear.m in Sources */,
 				E8A041FC52A98AA641241F9999360AEC /* ObjectiveWMM-dummy.m in Sources */,
-				2693D6A61C9A5F627F8640ADD8DDB36F /* PUBLIC_DOMAIN in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1092,22 +1048,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E39D4EDCDA18DA5484DA4F767CD2AB60 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		69CDEC44EE114FCD64C9866B4EE4D782 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "ObjectiveWMM-ObjectiveWMM";
-			target = D567D4A7B555734825DC713A9AAB6010 /* ObjectiveWMM-ObjectiveWMM */;
-			targetProxy = 9E5D6BF90F0152127F329E5504277150 /* PBXContainerItemProxy */;
-		};
 		8B5864256E590C5212E5CFFE67A8C46C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-ObjectiveWMM_Example";
@@ -1412,29 +1355,15 @@
 				PRODUCT_NAME = ObjectiveWMM;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos iphonesimulator iphoneos";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		A50BFF4C5F2CE6150F278525618DE7D7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E42C6759329EDFED1061A925E7F2CBC /* ObjectiveWMM.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ObjectiveWMM";
-				INFOPLIST_FILE = "Target Support Files/ObjectiveWMM/ResourceBundle-ObjectiveWMM-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = ObjectiveWMM;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
 		};
 		B97828B57993FBFFCDAC80547EF18AB2 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1554,28 +1483,14 @@
 				PRODUCT_NAME = ObjectiveWMM;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos iphonesimulator iphoneos";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		DA6B91DFEB334F8127B573C1638CB4F0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E42C6759329EDFED1061A925E7F2CBC /* ObjectiveWMM.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ObjectiveWMM";
-				INFOPLIST_FILE = "Target Support Files/ObjectiveWMM/ResourceBundle-ObjectiveWMM-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = ObjectiveWMM;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
 		};
 		F14CAC0CD1A0D39F1DCFA1791C6BC08A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1651,15 +1566,6 @@
 			buildConfigurations = (
 				F14CAC0CD1A0D39F1DCFA1791C6BC08A /* Debug */,
 				B97828B57993FBFFCDAC80547EF18AB2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9803D40EAF56BC5574BEEEA8A8E64617 /* Build configuration list for PBXNativeTarget "ObjectiveWMM-ObjectiveWMM" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A50BFF4C5F2CE6150F278525618DE7D7 /* Debug */,
-				DA6B91DFEB334F8127B573C1638CB4F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

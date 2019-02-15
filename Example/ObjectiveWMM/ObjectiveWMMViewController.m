@@ -6,9 +6,12 @@
 //  Copyright (c) 2018 Christopher Hobbs. All rights reserved.
 //
 
+@import ObjectiveWMM;
+
 #import "ObjectiveWMMViewController.h"
 
 @interface ObjectiveWMMViewController ()
+@property (strong, nonatomic) IBOutlet UILabel *declinationLabel;
 
 @end
 
@@ -18,6 +21,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    double declination = [ObjectiveWMM declinationForCoordinate:CLLocationCoordinate2DMake(37.7749, -122.4194)];
+    _declinationLabel.text = [[NSNumber numberWithDouble:declination] stringValue];
 }
 
 - (void)didReceiveMemoryWarning
