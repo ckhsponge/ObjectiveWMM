@@ -71,6 +71,7 @@ const char * getPathForResource(const char *fileName, const char *fileExtension)
             bundle = [NSBundle bundleWithURL:bundleUrl];
         }
         if (bundle == nil) {
+            // if ObjectiveWMM.bundle is not found then use the main bundle
             bundle = mainBundle;
         }
         NSString *path = [bundle pathForResource:@"WMM" ofType:@"COF"];
