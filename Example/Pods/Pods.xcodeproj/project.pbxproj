@@ -66,6 +66,7 @@
 		5DF1964D0239E63BE1B0E3571BC18DA6 /* EXPMatchers+match.h in Headers */ = {isa = PBXBuildFile; fileRef = 36BB29C27B61C055294A8316529A8EF8 /* EXPMatchers+match.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F3E6A1C219D55AA00A3B900 /* ObjectiveWMM.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3E6A1B219D55AA00A3B900 /* ObjectiveWMM.m */; };
 		5FE72DD32217673B0026097D /* ObjectiveWMM.podspecBU in Resources */ = {isa = PBXBuildFile; fileRef = 5FE72DD22217673B0026097D /* ObjectiveWMM.podspecBU */; };
+		5FE72E0D22178FC50026097D /* WMM.COF in Resources */ = {isa = PBXBuildFile; fileRef = 5FE72E0C22178FC50026097D /* WMM.COF */; };
 		5FFE1B7BDFD938E845462FDB2DAA9E8F /* EXPMatchers+equal.h in Headers */ = {isa = PBXBuildFile; fileRef = FBF30858E3C4F8F822AB008755EC09E9 /* EXPMatchers+equal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6054BD43480940CC50A56889A10DDF63 /* Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F9EE98E21A0C637A4E0FE3B6F402DAD /* Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66A87502CDBC739CC0BA6FEF1AA00AF1 /* EXPDoubleTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = E8899DDCDB159906296A77EA9F670B8C /* EXPDoubleTuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -185,7 +186,6 @@
 		186D37D789BDC5806713AC08D0BD0452 /* EXPMatchers+beKindOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beKindOf.h"; path = "Expecta/Matchers/EXPMatchers+beKindOf.h"; sourceTree = "<group>"; };
 		1B06F4EDF054A24295A7BD524587CABC /* EXPMatchers+beSupersetOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beSupersetOf.m"; path = "Expecta/Matchers/EXPMatchers+beSupersetOf.m"; sourceTree = "<group>"; };
 		1C162C15CB53B770D5FD084FF2A0833D /* Pods-ObjectiveWMM_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ObjectiveWMM_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1CDC06DC6C430CBDC56AFDA0CBCFF697 /* WMM.COF */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WMM.COF; path = ObjectiveWMM/Assets/WMM.COF; sourceTree = "<group>"; };
 		1DF8BC2C6730675F74DD28A442535501 /* SPTCompiledExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTCompiledExample.m; path = Specta/Specta/SPTCompiledExample.m; sourceTree = "<group>"; };
 		1F5CF0D3894D4FC1B84CF0F527D0D766 /* EXPMatchers+beSubclassOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beSubclassOf.h"; path = "Expecta/Matchers/EXPMatchers+beSubclassOf.h"; sourceTree = "<group>"; };
 		1F9EE98E21A0C637A4E0FE3B6F402DAD /* Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Expecta.h; path = Expecta/Expecta.h; sourceTree = "<group>"; };
@@ -227,6 +227,7 @@
 		5F22375077BCEABF9DE05E4614EAB0D1 /* Expecta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-prefix.pch"; sourceTree = "<group>"; };
 		5F3E6A1B219D55AA00A3B900 /* ObjectiveWMM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ObjectiveWMM.m; path = ObjectiveWMM/Classes/ObjectiveWMM.m; sourceTree = "<group>"; };
 		5FE72DD22217673B0026097D /* ObjectiveWMM.podspecBU */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ObjectiveWMM.podspecBU; sourceTree = "<group>"; };
+		5FE72E0C22178FC50026097D /* WMM.COF */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WMM.COF; sourceTree = "<group>"; };
 		621D45D57ACA8E38D852A1E07D2AD679 /* SpectaDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaDSL.m; path = Specta/Specta/SpectaDSL.m; sourceTree = "<group>"; };
 		65DA28E34D6B2634B0D3632970B9AFD0 /* EXPMatchers+raiseWithReason.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+raiseWithReason.h"; path = "Expecta/Matchers/EXPMatchers+raiseWithReason.h"; sourceTree = "<group>"; };
 		67324AA26715C0742B62E59D0AAB374C /* EXPMatchers+beTruthy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beTruthy.h"; path = "Expecta/Matchers/EXPMatchers+beTruthy.h"; sourceTree = "<group>"; };
@@ -481,6 +482,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5FE72E0B22178FC50026097D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5FE72E0C22178FC50026097D /* WMM.COF */,
+			);
+			name = Assets;
+			path = ObjectiveWMM/Assets;
+			sourceTree = "<group>";
+		};
 		642CBADE05AB7AED541CB2A072F3023A /* Expecta */ = {
 			isa = PBXGroup;
 			children = (
@@ -619,6 +629,7 @@
 		CF7E1654F52F6E43E582E62A412A2F45 /* ObjectiveWMM */ = {
 			isa = PBXGroup;
 			children = (
+				5FE72E0B22178FC50026097D /* Assets */,
 				58059FD365532D88F33AE516C121914B /* CCMagneticDeclination.h */,
 				FBDB14A2B8740C7854B1C9AC11710930 /* CCMagneticDeclination.m */,
 				CDC068185101D31E95C2B4F16C573C59 /* CCMagneticModel.h */,
@@ -628,7 +639,6 @@
 				BA9833A584158C9E10E087A6D017C144 /* ObjectiveWMM.h */,
 				5F3E6A1B219D55AA00A3B900 /* ObjectiveWMM.m */,
 				7B07347EE73D4FD0BDE1517E344C85A8 /* Pod */,
-				E14A728A89A8D980C3D24D5065A39FC9 /* Resources */,
 				E4FD26A145CF11CF7B518C21D4D39283 /* Support Files */,
 				F4474C17494F740D41335FDE36E7E2C1 /* WMM */,
 			);
@@ -652,14 +662,6 @@
 			);
 			name = "Pods-ObjectiveWMM_Example";
 			path = "Target Support Files/Pods-ObjectiveWMM_Example";
-			sourceTree = "<group>";
-		};
-		E14A728A89A8D980C3D24D5065A39FC9 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				1CDC06DC6C430CBDC56AFDA0CBCFF697 /* WMM.COF */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		E4FD26A145CF11CF7B518C21D4D39283 /* Support Files */ = {
@@ -938,6 +940,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FE72E0D22178FC50026097D /* WMM.COF in Resources */,
 				5FE72DD32217673B0026097D /* ObjectiveWMM.podspecBU in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
